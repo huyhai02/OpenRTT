@@ -10,7 +10,7 @@ Protocol version:
 
 Magic string:
 
-- `JTAG-TRANSPORT2.`
+- `Open RTTv1.0.0.0`
 
 The protocol is intentionally small:
 
@@ -54,7 +54,7 @@ The target library asserts these offsets in `rtt_protocol.h` and the DSS backend
 `magic_cells[16]` stores the ASCII text:
 
 ```text
-JTAG-TRANSPORT2.
+Open RTTv1.0.0.0
 ```
 
 Each character occupies one 16-bit cell. The low 8 bits carry the ASCII value.

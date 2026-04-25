@@ -7,7 +7,7 @@ importClass(java.lang.Long);
 importPackage(java.io);
 importPackage(java.util.concurrent);
 
-var MAGIC_ASCII = "JTAG-TRANSPORT2.";
+var MAGIC_ASCII = "Open RTTv1.0.0.0";
 var PROTOCOL_VERSION = 0x00020000;
 var RTT_FLAG_READY = 0x00000001;
 var TARGET_CELL_BYTES = 2;
