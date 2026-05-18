@@ -7,10 +7,6 @@ volatile rtt_control_block_t g_rtt_block __attribute__((section(".rtt_block")));
 volatile uint16_t g_rtt_up_buffer[RTT_UP_BUFFER_CELLS] __attribute__((section(".rtt_buf")));
 volatile uint16_t g_rtt_down_buffer[RTT_DOWN_BUFFER_CELLS] __attribute__((section(".rtt_buf")));
 
-volatile rtt_control_block_t g_rtt_block;
-volatile uint16_t g_rtt_up_buffer[RTT_UP_BUFFER_CELLS];
-volatile uint16_t g_rtt_down_buffer[RTT_DOWN_BUFFER_CELLS];
-
 uint32_t rtt_addr_to_protocol_bytes(const volatile void *ptr) {
     uintptr_t raw_addr;
 

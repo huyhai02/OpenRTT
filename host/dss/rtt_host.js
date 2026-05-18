@@ -308,7 +308,7 @@ function parseArgs(argv) {
         symbolName: "g_rtt_block",
         sessionPattern: null,
         sessionExplicit: false,
-        pollMs: 20,
+        pollMs: 5,
         addrUnitBytes: null,
         addrUnitExplicit: false,
         listParts: false,

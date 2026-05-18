@@ -2,7 +2,7 @@
 #define RTT_CFG_H
 
 #ifndef RTT_UP_BUFFER_CELLS
-#define RTT_UP_BUFFER_CELLS         (256u)
+#define RTT_UP_BUFFER_CELLS         (1024u)
 #endif
 
 #ifndef RTT_DOWN_BUFFER_CELLS
